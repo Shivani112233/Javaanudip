@@ -20,7 +20,16 @@ public class Demo {
 		
 		
 		int[]newArray = {34,56,34,23,5};
-		
+		 for(int i =0 ;i<arr.length;i++){
+				//ystem.out.println(arr[i]);
+				 
+				 if (arr[i] <17) {
+					 System.out.println("you are passed by grace ");
+					 arr[i] =  arr[i] + 5 ; //
+				 }
+				 
+				 System.out.println(arr[i]); //46
+			 }
                                                                                                                                                                                                                                                                                                                                                                                                               		   
 
 	}
